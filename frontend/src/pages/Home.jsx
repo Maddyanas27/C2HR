@@ -168,7 +168,7 @@ const Home = () => {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-white/0 via-white/20 to-white/0 transform -skew-x-12 -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
               <div className="relative flex items-center space-x-4">
-                <span>Get Premium Consultancy</span>
+                <span>Get Consultancy</span>
                 <ArrowRight className="w-7 h-7 group-hover:translate-x-2 transition-transform" />
               </div>
             </Link>
