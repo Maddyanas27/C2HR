@@ -2,6 +2,7 @@ import React, { createContext, useState, useEffect } from 'react';
 import axios from 'axios';
 
 // Configure axios defaults
+axios.defaults.baseURL = 'https://c2hr.onrender.com';
 axios.defaults.timeout = 10000; // 10 second timeout
 
 export const AuthContext = createContext();
